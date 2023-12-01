@@ -19,20 +19,21 @@
                 <span asp-validation-for="Recipe.Name" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Recipe.Ingredients" class="control-label"></label>
-                <input asp-for="Recipe.Ingredients" class="form-control" />
-                <span asp-validation-for="Recipe.Ingredients" class="text-danger"></span>
-            </div>
-            <div class="form-group">
                 <label asp-for="Recipe.Description" class="control-label"></label>
-                <input asp-for="Recipe.Description" class="form-control" />
+                <textarea asp-for="Recipe.Description" class="form-control" rows="4"></textarea>
                 <span asp-validation-for="Recipe.Description" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Recipe.Ingredients" class="control-label"></label>
+                <textarea asp-for="Recipe.Ingredients" class="form-control" rows="4"></textarea>
+                <span asp-validation-for="Recipe.Ingredients" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label asp-for="Recipe.Steps" class="control-label"></label>
-                <input asp-for="Recipe.Steps" class="form-control" />
+                <textarea asp-for="Recipe.Steps" class="form-control" rows="4"></textarea>
                 <span asp-validation-for="Recipe.Steps" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>

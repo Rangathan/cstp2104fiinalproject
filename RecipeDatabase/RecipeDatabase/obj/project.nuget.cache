@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hpNi2sM1wRGwvxdm4090m3eluGZlwrvNzcV+heBXhhuFMBSgVaCilXe8JdKekgcIZeIYfiGdaWKMtBP6uypCDQ==",
+  "dgSpecHash": "m+aGd67DK7boB82d3+vKeHLjWPASZVTprwVApEmg+U37BRSjXt3B2gkaekI9I+18XDdFves8eH4kuyGRQM/VsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adam\\source\\repos\\RecipeDatabase\\RecipeDatabase\\RecipeDatabase.csproj",
+  "projectFilePath": "C:\\Users\\adam\\source\\repos\\cstp2104fiinalproject\\RecipeDatabase\\RecipeDatabase\\RecipeDatabase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adam\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\adam\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
