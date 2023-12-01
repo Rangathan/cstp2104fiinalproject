@@ -1,20 +1,22 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+using RecipeDatabase.Data;
+using RecipeDatabase.Models;
+using System.Collections.Generic;
 
-namespace RecipeDatabase.Pages
+public class IndexModel : PageModel
 {
-    public class IndexModel : PageModel
+    private readonly RecipeDatabaseContext _context;
+
+    public IndexModel(RecipeDatabaseContext context)
     {
-        private readonly ILogger<IndexModel> _logger;
+        _context = context;
+    }
 
-        public IndexModel(ILogger<IndexModel> logger)
-        {
-            _logger = logger;
-        }
+    public IList<Recipe> Recipe { get; set; } = new List<Recipe>();
 
-        public void OnGet()
-        {
-
-        }
+    public void OnGet()
+    {
+        // Fetch recipes from the database and assign them to the Recipe property
+        Recipe = _context.Recipe.ToList();
     }
 }

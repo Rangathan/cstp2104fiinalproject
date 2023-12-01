@@ -38,7 +38,7 @@ namespace RecipeDatabase.Pages.Recipes
                                             select r.Name;
 
             var recipes = from r in _context.Recipe
-                         select r;
+                          select r;
             if (!string.IsNullOrEmpty(SearchString))
             {
                 recipes = recipes.Where(s => s.Name.Contains(SearchString));
@@ -52,4 +52,5 @@ namespace RecipeDatabase.Pages.Recipes
             Recipe = await recipes.ToListAsync();
         }
     }
+
 }

@@ -5,21 +5,26 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Recipes</h1>
 
 <p>
     <a asp-page="Create">Create New</a>
 </p>
 
-<form>
+<form method="get">
     <p>
         <select asp-for="RecipeName" asp-items="Model.Name">
             <option value="">All</option>
+            <option value="IngredientSearch">Ingredient</option>
         </select>
-        Name: <input type="text" asp-for="SearchString" />
+        Search: <input type="text" asp-for="SearchString" />
         <input type="submit" value="Filter" />
     </p>
 </form>
+
+
+
+
 
 <div class="row">
     @foreach (var item in Model.Recipe)
