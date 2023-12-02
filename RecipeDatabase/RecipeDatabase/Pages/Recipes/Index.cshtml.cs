@@ -20,37 +20,48 @@ namespace RecipeDatabase.Pages.Recipes
             _context = context;
         }
 
+        [BindProperty(SupportsGet = true)]
+        public string Option { get; set; }
+
+        public List<SelectListItem> OptionsList { get; set; }
+
         public IList<Recipe> Recipe { get; set; } = default!;
 
         [BindProperty(SupportsGet = true)]
         public string? SearchString { get; set; }
 
-        public SelectList? Name { get; set; }
-
-        [BindProperty(SupportsGet = true)]
-        public string? RecipeName { get; set; }
-
-
         public async Task OnGetAsync()
         {
-            IQueryable<string> genreQuery = from r in _context.Recipe
-                                            orderby r.Name
-                                            select r.Name;
+            IQueryable<Recipe> recipes = _context.Recipe.AsQueryable();
 
-            var recipes = from r in _context.Recipe
-                          select r;
-            if (!string.IsNullOrEmpty(SearchString))
+            // Filtering based on the selected option
+            if (!string.IsNullOrEmpty(Option) && Option == "Ingredients")
             {
-                recipes = recipes.Where(s => s.Name.Contains(SearchString));
+                if (!string.IsNullOrEmpty(SearchString))
+                {
+                    recipes = recipes.Where(r => r.Ingredients.Contains(SearchString));
+                }
             }
-
-            if (!string.IsNullOrEmpty(RecipeName))
+            else
             {
-                recipes = recipes.Where(x => x.Name == RecipeName);
+                if (!string.IsNullOrEmpty(SearchString))
+                {
+                    recipes = recipes.Where(r => r.Name.Contains(SearchString));
+                }
             }
 
             Recipe = await recipes.ToListAsync();
+
+            // Populating OptionsList with your desired options
+            OptionsList = new List<SelectListItem>
+            {
+                new SelectListItem { Value = "", Text = "All" },
+                new SelectListItem { Value = "Ingredients", Text = "Ingredient" },
+                // Add other SelectListItem objects as needed
+            };
         }
     }
-
 }
+
+
+

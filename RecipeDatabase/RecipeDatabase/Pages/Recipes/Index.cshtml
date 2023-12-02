@@ -13,14 +13,16 @@
 
 <form method="get">
     <p>
-        <select asp-for="RecipeName" asp-items="Model.Name">
-            <option value="">All</option>
-            <option value="IngredientSearch">Ingredient</option>
+        <select asp-for="Option" asp-items="@Model.OptionsList">
+            <option value="">--Select Option--</option>
         </select>
+
         Search: <input type="text" asp-for="SearchString" />
         <input type="submit" value="Filter" />
     </p>
 </form>
+
+
 
 
 
