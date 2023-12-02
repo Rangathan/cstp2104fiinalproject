@@ -9,57 +9,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RecipeDatabase
 build_property.RootNamespace = RecipeDatabase
-build_property.ProjectDir = C:\Users\adam\source\repos\cstp2104fiinalproject\RecipeDatabase\RecipeDatabase\
+build_property.ProjectDir = D:\School\VCC\Term 4\CSTP 2104 Interactive Apps\Project\cstp2104fiinalproject\RecipeDatabase\RecipeDatabase\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\adam\source\repos\cstp2104fiinalproject\RecipeDatabase\RecipeDatabase
+build_property.MSBuildProjectDirectory = D:\School\VCC\Term 4\CSTP 2104 Interactive Apps\Project\cstp2104fiinalproject\RecipeDatabase\RecipeDatabase
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/adam/source/repos/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/Error.cshtml]
+[D:/School/VCC/Term 4/CSTP 2104 Interactive Apps/Project/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/adam/source/repos/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/Index.cshtml]
+[D:/School/VCC/Term 4/CSTP 2104 Interactive Apps/Project/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/adam/source/repos/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/Privacy.cshtml]
+[D:/School/VCC/Term 4/CSTP 2104 Interactive Apps/Project/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/adam/source/repos/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/Recipes/Create.cshtml]
+[D:/School/VCC/Term 4/CSTP 2104 Interactive Apps/Project/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/Recipes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjaXBlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/adam/source/repos/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/Recipes/Delete.cshtml]
+[D:/School/VCC/Term 4/CSTP 2104 Interactive Apps/Project/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/Recipes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjaXBlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/adam/source/repos/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/Recipes/Details.cshtml]
+[D:/School/VCC/Term 4/CSTP 2104 Interactive Apps/Project/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/Recipes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjaXBlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/adam/source/repos/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/Recipes/Edit.cshtml]
+[D:/School/VCC/Term 4/CSTP 2104 Interactive Apps/Project/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/Recipes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjaXBlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/adam/source/repos/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/Recipes/Index.cshtml]
+[D:/School/VCC/Term 4/CSTP 2104 Interactive Apps/Project/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/Recipes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjaXBlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/adam/source/repos/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/School/VCC/Term 4/CSTP 2104 Interactive Apps/Project/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/adam/source/repos/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/_ViewImports.cshtml]
+[D:/School/VCC/Term 4/CSTP 2104 Interactive Apps/Project/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/adam/source/repos/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/_ViewStart.cshtml]
+[D:/School/VCC/Term 4/CSTP 2104 Interactive Apps/Project/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/adam/source/repos/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/Shared/_Layout.cshtml]
+[D:/School/VCC/Term 4/CSTP 2104 Interactive Apps/Project/cstp2104fiinalproject/RecipeDatabase/RecipeDatabase/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-90rphpatvk
